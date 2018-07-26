@@ -29,5 +29,12 @@ namespace Trekking.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Image> Images { get; set; }
+        public DbSet<CarouselImage> CarouselImages { get; set; }
+        public DbSet<ContactInformation> ContactInformations { get; set; }
+        public DbSet<Departure> Departures { get; set; }
+        public DbSet<Package> Packages { get; set; }
+
     }
 }
