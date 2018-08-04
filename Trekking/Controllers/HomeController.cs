@@ -26,5 +26,10 @@ namespace Trekking.Controllers
 
             return View();
         }
+
+        public ActionResult Nepal()
+        {
+            return View();
+        }
     }
 }
